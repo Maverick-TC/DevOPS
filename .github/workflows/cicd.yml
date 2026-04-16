@@ -20,7 +20,7 @@ jobs:
           python-version: '3.9'
 
       - name: Run tests
-        run: python3 test_calculator.py
+        run: python3 calculator.py
 
   build-and-push:
     name: Build and Push Docker Image
